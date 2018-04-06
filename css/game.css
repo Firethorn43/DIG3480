@@ -6,6 +6,7 @@
 .wall          { background: rgb(198, 198, 198);   }
 .coin   { background: rgb(88, 194, 0);  }
 .boost { background: rgb(79, 184, 189); }
+.crush { background: rgb(255, 208, 5); }
 
 .actor  { position: absolute;  }
 .player { background: rgb(12, 64, 183); }
@@ -15,3 +16,11 @@
   max-height: 450px;
   position: relative;
 }
+
+.lost .player {
+  background: rgb(250, 12, 0);
+}
+.won .player {
+  box-shadow: -7px -1px 10px yellow, 7px -1px 10px yellow;
+}
+.powered .player { background: rgb(96, 206, 43);}
